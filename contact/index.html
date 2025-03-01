@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Anthony Gulyk</title>
     <link rel="stylesheet" href="../styles.css">
-    <title>Anthony Gulyk - Contact Me</title>
 </head>
-
 <body>
-    <nav>
+    <header>
+        <nav>
         <a href="../">Home</a>
         <a href="../projects/">Projects</a>
         <a href="/contact/">Contact</a>
-    </nav>
+        </nav>
+    </header>
 
     <main>
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">Sorting Visualizer</div>
-        </div>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
     </main>
-</body>
 
+    <footer>© 2025 Anthony Gulyk</footer>
+</body>
 </html>
