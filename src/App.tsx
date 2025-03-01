@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+    return (
       <header>
-      <p>Anthony Gulyk</p>
+          <p>Anthony Gulyk</p>
+          <a href="https://anthonygulyk.github.io/sorting-visualizer/" target="_blank">
+              <button>Sorting Visualizer</button>
+          </a>
       </header>
-  );
+    );
 }
 
 export default App;
