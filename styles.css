@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
